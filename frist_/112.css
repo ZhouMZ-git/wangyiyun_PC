@@ -75,11 +75,15 @@
             width: 34px;height: 34px;border: 1px solid #1c2535;border-radius:50%; float: right;margin-top:11px; 
         }
         .middle{
-            color: white;height: 56;border: 1px solid;
+            color: white;height: 56px;border: 1px solid;width: 1054px;overflow: hidden;
         }
         .middle .liebiao{
-            color: white;float:left;
+            height:100%;float: left; width: 1054px;overflow: hidden;
         }
         .middle .liebiao li{
-            float:left;color:#000312;
+            float: left;
+            color: #000312;
+            font-size: 30px;
+            cursor: pointer;
+            line-height: 56px;text-shadow: 0 0 1px #000312;
         }
