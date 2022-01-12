@@ -74,16 +74,27 @@
         .topNode .user img{
             width: 34px;height: 34px;border: 1px solid #1c2535;border-radius:50%; float: right;margin-top:11px; 
         }
-        .middle{
-            color: white;height: 56px;border: 1px solid;width: 1054px;overflow: hidden;
-        }
-        .middle .liebiao{
-            height:100%;float: left; width: 1054px;overflow: hidden;
-        }
-        .middle .liebiao li{
-            float: left;
-            color: #000312;
-            font-size: 30px;
-            cursor: pointer;
-            line-height: 56px;text-shadow: 0 0 1px #000312;
-        }
+
+        /*topBanner*/
+        .topBanner{width: 1208px;height: 56px;margin: 0 auto;}
+    	.topBanner li{float: left;height: 56px;line-height: 66px;overflow: hidden;font-size: 16px;margin-right:66px;position: relative;font-family: "Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif" }
+    	.topBanner li a {color: #424242;}
+    	.topBanner li.active a{color: #43ac49;}
+        .topBanner li:hover a{
+    		color: #43ac49;
+    	}
+    	.topBanner li .greenLine{width: 24px;height: 3px;position: absolute;left: 50%;margin-left:-12px;bottom: 0px;background: #33a841; display: none;}
+    	.topBanner li.active .greenLine{
+    		display: block;
+    	}
+    	
+        .topBanner li:hover .greenLine{
+    		display: block;
+    	}
+    	.topBanner li.right{
+    		margin-right: 0;
+    	}
+    	.topBanner li.right a{float: left;margin-top: 29px;
+    		width: 18px;height: 4px;line-height: 0;
+    	 }
+       
