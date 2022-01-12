@@ -1,100 +1,242 @@
-*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
-        /* topNode*/
-        .topNode{
-            height: 56px;background: #303440;
-        }
-        .topNode .topNodeContent{
-            width: 1206px;height: 100%;margin: 0 auto;
-        }
-        .topNode .topNodeContent .logo{
-            float: left; margin-top: 14px;
-        }
-        .topNode .searchNode{
-            width:357px; height:36px;border: 1px solid #191e2b;
-            background: #fff;float: left;border-radius: 19px;
-            margin:9px 0 0 17px;
-            overflow: hidden;
-        }
-        .topNode .searchNode .searchNodeLeft{
-            height: 100%; float: left;
-            width:  44px; line-height: 36px;font-size: 14px;
-            background: url(image/jt-b.gif) no-repeat right 14px;
-            margin-left: 18px;
-        }
-        .topNode .searchNode .searchNodeInput{
-            width: 198px;line-height: 36px;font-size: 14px;
-            border: none;float: left;outline: none;
-            font-size: 15px;margin-left: 14px;color:#a2a2a2;
-        }
-        .topNode .searchNode .searchNodeRight{
-            width: 80px;height: 100%;float:right;
-            background:url(image/search.gif) no-repeat 10px center,#4aaf4f;
-            color: white;line-height: 36px;text-indent: 29px;font-size: 15px;
-        }
-        .topNode .topNodeContent .bannerTop{
-            height: 100%;float: left;margin-left:31px; 
-        }
-        .topNode .bannerTop li{
-            height: 100%;float: left;margin:0 9px;
-            color: #fff;
-            font-size: 14px;
-            cursor: pointer;
-            line-height: 56px;text-shadow: 0 0 1px #000312;
-        }
-        .topNode .bannerTop .downloadApp{
-            padding-left: 18px;
-            background: url(image/download.gif) no-repeat left center;
-            /*text-indent: 18px;*/
-        }
-        .topNode .bannerTop .see{
-            background: url(image/lw.gif) no-repeat left center;
-            padding-left: 20px;
-        } 
-        .topNode .bannerTop .line{
-            width: 5px;background: url(image/sg.gif) no-repeat 0 19px;
-            cursor: none;
-        }
-        .topNode .topNodeContent .bell{
-            background: url(image/tx.gif) no-repeat 0 center;width: 17px;
-        }
-        .topNode .topNodeContent .shoppingcart{
-            background: url(image/gwc.gif) no-repeat 0 center;width: 18px;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
 
-        .topNode .topNodeContent .user{
-            height: 100%;
-            float: left;
-        }
-        .topNode .user span{
-            height: 100%; float: left;line-height: 56px;
-            color: #fff;font-size: 14px;margin-left: 9px;
-            cursor: pointer;
-            
-        }
-        .topNode .user img{
-            width: 34px;height: 34px;border: 1px solid #1c2535;border-radius:50%; float: right;margin-top:11px; 
-        }
+/* topNode*/
+.topNode {
+    height: 56px;
+    background: #303440;
+}
 
-        /*topBanner*/
-        .topBanner{width: 1208px;height: 56px;margin: 0 auto;}
-    	.topBanner li{float: left;height: 56px;line-height: 66px;overflow: hidden;font-size: 16px;margin-right:66px;position: relative;font-family: "Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif" }
-    	.topBanner li a {color: #424242;}
-    	.topBanner li.active a{color: #43ac49;}
-        .topBanner li:hover a{
-    		color: #43ac49;
-    	}
-    	.topBanner li .greenLine{width: 24px;height: 3px;position: absolute;left: 50%;margin-left:-12px;bottom: 0px;background: #33a841; display: none;}
-    	.topBanner li.active .greenLine{
-    		display: block;
-    	}
-    	
-        .topBanner li:hover .greenLine{
-    		display: block;
-    	}
-    	.topBanner li.right{
-    		margin-right: 0;
-    	}
-    	.topBanner li.right a{float: left;margin-top: 29px;
-    		width: 18px;height: 4px;line-height: 0;
-    	 }
-       
+.topNode .topNodeContent {
+    width: 1206px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.topNode .topNodeContent .logo {
+    float: left;
+    margin-top: 14px;
+}
+
+.topNode .searchNode {
+    width: 357px;
+    height: 36px;
+    border: 1px solid #191e2b;
+    background: #fff;
+    float: left;
+    border-radius: 19px;
+    margin: 9px 0 0 17px;
+    overflow: hidden;
+}
+
+.topNode .searchNode .searchNodeLeft {
+    height: 100%;
+    float: left;
+    width: 44px;
+    line-height: 36px;
+    font-size: 14px;
+    background: url(image/jt-b.gif) no-repeat right 14px;
+    margin-left: 18px;
+}
+
+.topNode .searchNode .searchNodeInput {
+    width: 198px;
+    line-height: 36px;
+    font-size: 14px;
+    border: none;
+    float: left;
+    outline: none;
+    font-size: 15px;
+    margin-left: 14px;
+    color: #a2a2a2;
+}
+
+.topNode .searchNode .searchNodeRight {
+    width: 80px;
+    height: 100%;
+    float: right;
+    background: url(image/search.gif) no-repeat 10px center, #4aaf4f;
+    color: white;
+    line-height: 36px;
+    text-indent: 29px;
+    font-size: 15px;
+}
+
+.topNode .topNodeContent .bannerTop {
+    height: 100%;
+    float: left;
+    margin-left: 31px;
+}
+
+.topNode .bannerTop li {
+    height: 100%;
+    float: left;
+    margin: 0 9px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 56px;
+    text-shadow: 0 0 1px #000312;
+}
+
+.topNode .bannerTop .downloadApp {
+    padding-left: 18px;
+    background: url(image/download.gif) no-repeat left center;
+    /*text-indent: 18px;*/
+}
+
+.topNode .bannerTop .see {
+    background: url(image/lw.gif) no-repeat left center;
+    padding-left: 20px;
+}
+
+.topNode .bannerTop .line {
+    width: 5px;
+    background: url(image/sg.gif) no-repeat 0 19px;
+    cursor: none;
+}
+
+.topNode .topNodeContent .bell {
+    background: url(image/tx.gif) no-repeat 0 center;
+    width: 17px;
+}
+
+.topNode .topNodeContent .shoppingcart {
+    background: url(image/gwc.gif) no-repeat 0 center;
+    width: 18px;
+}
+
+.topNode .topNodeContent .user {
+    height: 100%;
+    float: left;
+}
+
+.topNode .user span {
+    height: 100%;
+    float: left;
+    line-height: 56px;
+    color: #fff;
+    font-size: 14px;
+    margin-left: 9px;
+    cursor: pointer;
+
+}
+
+.topNode .user img {
+    width: 34px;
+    height: 34px;
+    border: 1px solid #1c2535;
+    border-radius: 50%;
+    float: right;
+    margin-top: 11px;
+}
+
+/*topBanner*/
+.topBanner {
+    width: 1208px;
+    height: 56px;
+    margin: 0 auto;
+}
+
+.topBanner li {
+    float: left;
+    height: 56px;
+    line-height: 66px;
+    overflow: hidden;
+    font-size: 16px;
+    margin-right: 66px;
+    position: relative;
+    font-family: "Arial", "Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif"
+}
+
+.topBanner li a {
+    color: #424242;
+}
+
+.topBanner li.active a {
+    color: #43ac49;
+}
+
+.topBanner li:hover a {
+    color: #43ac49;
+}
+
+.topBanner li .greenLine {
+    width: 24px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+    bottom: 0px;
+    background: #33a841;
+    display: none;
+}
+
+.topBanner li.active .greenLine {
+    display: block;
+}
+
+.topBanner li:hover .greenLine {
+    display: block;
+}
+
+.topBanner li.right {
+    margin-right: 0;
+}
+
+.topBanner li.right a {
+    float: left;
+    margin-top: 29px;
+    width: 18px;
+    height: 4px;
+    line-height: 0;
+}
+
+/* silder-content */
+.silder-content {
+    height: 360px;
+    background: #f15c5a;
+}
+
+.silder-content .silder-content-outerNode {
+    width: 1208px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.silder-content .silder-content-outerNode .silder-content-UlNode {
+    width: 100%;
+    height: 100%;
+}
+
+.silder-content .silder-content-outerNode .silder-content-UlNode li {
+    width: 100%;
+    height: 100%;
+}
+.silder-content .silder-content-outerNode img{
+    float: left;
+}
+.silder-content .silder-content-button{
+    width: 280px;height: 320px;position: absolute;right: 0;top: 20px;
+}
+.silder-content .silder-content-outerNode .silder-content-button li{
+    text-indent: 20px;font-size: 16px;height: 39px;
+     float: left;line-height: 39px;
+}
+.silder-content .silder-content-outerNode .silder-content-button li a{
+    height: 100%;float: left;color: #aaa;
+}
+.silder-content .silder-content-outerNode .silder-content-button li.first{
+    margin-top:22px; 
+}
+.silder-content .silder-content-outerNode .silder-content-button li.active a{
+    color: #30e043;
+}
+.silder-content .silder-content-outerNode .silder-content-button li.active{
+    background: url(image/slider-jt.png) no-repeat 8px center;
+}
