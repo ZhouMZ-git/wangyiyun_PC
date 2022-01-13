@@ -75,15 +75,23 @@
             width: 34px;height: 34px;border: 1px solid #1c2535;border-radius:50%; float: right;margin-top:11px; 
         }
         .middle{
-            color: white;height: 56px;border: 1px solid;width: 1054px;overflow: hidden;
+            color: white;height: 56px;border: 1px solid;width: 1054px;
         }
         .middle .liebiao{
-            height:100%;float: left; width: 1054px;overflow: hidden;
+            height:100%; width: 100%;overflow: hidden;
         }
-        .middle .liebiao li{
-            float: left;
+
+        .middle  li{
+            float: left;margin-left: 5px;
             color: #000312;
-            font-size: 30px;
+            font-size: 20px;
+            font-style: italic;
             cursor: pointer;
             line-height: 56px;text-shadow: 0 0 1px #000312;
+        }
+        .middle li.shouye{
+            margin-left: 300px;
+        }
+        .middle li.lieBiaoLast{
+            float:right；
         }
